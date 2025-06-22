@@ -5,6 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mergington High School Activities</title>
     <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* Pretty styles for participants section */
+      .participants-section {
+        margin-top: 0.5em;
+        background: #f8f9fa;
+        border-radius: 6px;
+        padding: 0.5em 1em;
+        font-size: 0.97em;
+      }
+      .participants-section strong {
+        display: block;
+        margin-bottom: 0.3em;
+        color: #2c3e50;
+      }
+      .participants-list {
+        margin: 0;
+        padding-left: 1.2em;
+      }
+      .participants-list li {
+        margin-bottom: 0.1em;
+        color: #34495e;
+      }
+      .no-participants {
+        color: #888;
+        font-style: italic;
+        margin: 0.2em 0 0.2em 0;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -17,7 +45,7 @@
         <h3>Available Activities</h3>
         <div id="activities-list">
           <!-- Activities will be loaded here -->
-          <p>Loading activities...</p>
+          <!-- Each activity card will now include a pretty participants section -->
         </div>
       </section>
 
